@@ -712,7 +712,7 @@ function saveSettingsGist() {
         $('#save-gist-warning').modal('hide');
         $('#save-gist-result').modal('show');
         miscViewModel.savedGistUrl(content.html_url);
-        miscViewModel.savedGistLaunchUrl("http://jscut.org/jscut.html?gist="+content.id);
+        miscViewModel.savedGistLaunchUrl("http://sofie1.com/jscut.html?gist="+content.id);
     })
     .fail(function (e) {
         alert.remove();
